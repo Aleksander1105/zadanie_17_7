@@ -1,0 +1,13 @@
+doctype html
+html
+	head
+		title First App for Animals
+		include ./style.pug
+	body
+		h1 Good to see you!
+		p Please sign up to get access to our app.
+		div.container
+			form(action="/logged" method="GET")
+				input(type="email" name="email" placeholder="Your email")
+				input(type="password" name="password" placeholder="Password")
+				button(type="submit") Submit
