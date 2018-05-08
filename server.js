@@ -9,7 +9,6 @@ app.set('view engine', 'pug');
 app.set('views', './views');
 app.use(passport.initialize());
 app.use(passport.session());
-
 app.use(express.static('assets'));
 
 passport.serializeUser(function(user, done) {
