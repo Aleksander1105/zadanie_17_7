@@ -14,12 +14,9 @@ p {
 	justify-content: center;
 }
 
-input {
-	display: flex;
-	justify-content: center;
-	margin: 10px 0;
-	text-align: center;
-	padding: 3px 30px;
+.link {
+	text-decoration: none;
+	color: #fff;
 }
 
 button {
@@ -32,3 +29,4 @@ button {
 	border-radius: 5px;
 	padding: 5px 8px;
 }
+

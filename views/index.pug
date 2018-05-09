@@ -5,9 +5,8 @@ html
 		include ./style.pug
 	body
 		h1 Good to see you!
-		p Please sign up to get access to our app.
+		p Please sign in to get access to our app.
 		div.container
-			form(action="/auth/google" method="GET")
-				input(type="email" name="email" placeholder="Your email")
-				input(type="password" name="password" placeholder="Password")
-				button(type="submit") Submit
+			a(href="/auth/google").link
+				button(type="button") Register
+					
